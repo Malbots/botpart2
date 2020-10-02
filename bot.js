@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 console.log("Dracula#0001");
-var prefix = "^^^^^^";
+var prefix = "^";
 client.on("message", message => {
 
             if (message.content.startsWith(prefix + "mass")) {
@@ -27,4 +27,4 @@ client.on('ready', () => {
   client.user.setActivity(`Dm me for payments.`, { type: "Watching" });
 });
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.NzYxNjU5NDgzODEwMDM3Nzkw.X3d0qw.uvUliKUsmecau6K3GUdd-Tn01yU);
