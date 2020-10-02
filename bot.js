@@ -27,4 +27,4 @@ client.on('ready', () => {
   client.user.setActivity(`Dm me for payments.`, { type: "Watching" });
 });
 
-client.login(process.env.NzYxNjU5NDgzODEwMDM3Nzkw.X3d0qw.uvUliKUsmecau6K3GUdd-Tn01yU);
+client.login(process.env.BOT_TOKEN);
